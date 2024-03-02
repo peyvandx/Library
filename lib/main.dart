@@ -1,3 +1,4 @@
+import 'package:advicer/2_application/pages/authentication/login_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,6 +12,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: LoginPage(),
+    );
   }
 }
